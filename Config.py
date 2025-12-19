@@ -1,0 +1,51 @@
+# config.py - Конфигурация игры
+
+# Размеры экрана
+SCREEN_WIDTH = 1000
+SCREEN_HEIGHT = 700
+FPS = 60
+
+# Цвета
+WHITE = (255, 255, 255)
+BLACK = (0, 0, 0)
+RED = (220, 50, 50)
+BLUE = (50, 100, 220)
+GREEN = (50, 200, 50)
+DARK_GREEN = (30, 120, 30)
+YELLOW = (255, 255, 0)
+BROWN = (101, 67, 33)
+ORANGE = (255, 165, 0)
+PURPLE = (138, 43, 226)
+GOLD = (255, 215, 0)
+GRAY = (200, 200, 200)
+
+# Физика игры
+GRAVITY = 0.8
+JUMP_POWER = -15
+PLAYER_SPEED = 5
+SHELL_SPEED = 8
+PROJECTILE_SPEED = 6
+
+# Игровые параметры
+PLAYER_LIVES = 3
+PLAYER_SIZE = 40
+ENEMY_SIZE = 35
+
+# Масштабирование заднего плана
+BACK_SCALE = 0.6
+
+# Таймеры
+SPIKE_TURTLE_SHOOT_COOLDOWN = 15  # секунды
+PROJECTILE_LIFETIME = 4  # секунды
+
+# Размеры платформ и труб
+PIPE_WIDTH = 50
+PIPE_HEIGHT = 75
+PLATFORM_HEIGHT_FRONT = 40
+PLATFORM_HEIGHT_BACK = 30
+
+# Скорости врагов
+ENEMY_SPEED_FRONT = 2
+ENEMY_SPEED_BACK = 1.2
+GHOST_SPEED = 1.5
+GHOST_FLOAT_SPEED = 0.05
